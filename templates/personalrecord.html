@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="row">
+        <div class="col-lg-4">
+            <img src="{% static 'images/edu7.jpg' %}" width="180px" height="180px"
+                 class="img-thumbnail">
+        </div>
+         <div class="col-lg-4">
+            <img src="{% static 'images/edu3.jpg' %}" width="180px" height="180px"
+                 class="img-thumbnail">
+        </div>
+         <div class="col-lg-4">
+            <img src="{% static 'images/edu6.jpg' %}" width="180px" height="180px"
+                 class="img-thumbnail">
+        </div>
+
+        <div class="mt-4 p-5 bg-secondary text-white rounded">
+            <h1>ประวัติส่วนตัว</h1>
+            <p> ชื่อ อรรถพร ดอนเกิด <br>
+                ชื่อเล่น มิวกี้ <br>
+                เกิด วันพฤหัสบดี ที่ 9 สิงหาคม พ.ศ.2544 <br>
+                เชื้อชาติ ไทย สัญชาติ ไทย
+                ที่อยู่ตามภูมิลำเนา 99 หมู่ 9 ตำบลเกษตรวิสัย อำเภอเกษตรวิสัย จังหวัดร้อยเอ็ด 45150 <br>
+                ที่อยู่ปัจจุบัน 94/10 ถ.อนามัย ต.ในเมือง อ.เมืองขอนแก่น จ.ขอนแก่น 40000 <br>
+                น้ำหนัก: 52 กิโลกรัม ส่วนสูง: 165 เซนติเมตร <br>
+                เบอร์โทร: 0984616825 <br>
+                Email: attaporn.do@rmuti.ac.th <br>
+                ความสามารถพิเศษ: สามารถใช้คอมพิวเตอร์ระดับพื้นฐานได้,Canva <br>
+                งานอดิเรก: ร้องเพลง,เล่นกีฬา <br>
+                เพลงที่ชอบ: ทราบแล้วเปลี่ยน,วาดไว้,ชีวิตจริง <br>
+            </p>
+        </div>
+{% endblock %}

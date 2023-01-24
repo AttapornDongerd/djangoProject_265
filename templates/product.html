@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+     <div class="mt-4 p-5 bg-secondary text-white text-center rounded">
+        <h1>Milky Store</h1>
+    </div>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="{% static 'images/prod1.png' %}" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Spring Skirt</h4>
+                    <p class="card-text">price 290 ฿</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="{% static 'images/prod2.png' %}" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Basic Boy Jeans</h4>
+                    <p class="card-text">price 289 ฿</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card" style="width:250px">
+                <img class="card-img-top" src="{% static 'images/prod3.png' %}" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Brownie Crop</h4>
+                    <p class="card-text">price 250 ฿</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+    <div class="col-lg-4">
+         <div class="card" style="width:250px">
+                <img class="card-img-top" src="{% static 'images/prod4.png' %}" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Polo Neck Top</h4>
+                    <p class="card-text">price 259 ฿</p>
+                </div>
+            </div>
+    </div>
+     <div class="col-lg-4">
+         <div class="card" style="width:250px">
+                <img class="card-img-top" src="{% static 'images/prod5.png' %}" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Longsai Shirt</h4>
+                    <p class="card-text">price 290 ฿</p>
+                </div>
+            </div>
+    </div>
+     <div class="col-lg-4">
+         <div class="card" style="width:250px">
+                <img class="card-img-top" src="{% static 'images/prod6.png' %}" alt="Card image">
+                <div class="card-body">
+                    <h4 class="card-title">Yume Skirt</h4>
+                    <p class="card-text">price 250 ฿</p>
+                </div>
+            </div>
+    </div>
+    </div>
+
+{% endblock %}

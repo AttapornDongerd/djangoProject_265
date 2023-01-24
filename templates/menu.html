@@ -1,0 +1,23 @@
+{% load fontawesome_5 %}
+{% fontawesome_5_static %}
+<br>
+<ul class="list-group">
+    <li class="list-group-item bg-secondary active"><b> Menu </b></li>
+    <li><a href="{% url 'home' %}" class="list-group-item list-group-item-action list-group-item-light text-secondary">
+        <i class="fas fa-home"></i> Home </a></li>
+    <li><a href="{% url 'personalrecord' %}"
+           class="list-group-item list-group-item-action list-group-item-light text-secondary">
+         <i class="fas fa-user"></i> Personal </a></li>
+    <li><a href="{% url 'education' %}"
+           class="list-group-item list-group-item-action list-group-item-light text-secondary">
+        <i class="fas fa-user-graduate"></i> Education </a></li>
+    <li><a href="{% url 'interests' %}"
+           class="list-group-item list-group-item-action list-group-item-light text-secondary">
+        <i class="fas fa-tag"></i> Interests </a></li>
+    <li><a href="{% url 'product' %}" class="list-group-item list-group-item-action list-group-item-light text-secondary">
+        <i class="fas fa-tshirt"></i> Product </a></li>
+    <li><a href="{% url 'rolemodel' %}" class="list-group-item list-group-item-action list-group-item-light text-secondary">
+        <i class="fas fa-trophy"></i> Role Model </a></li>
+    <li><a href="{% url 'showMyData' %}" class="list-group-item list-group-item-action list-group-item-light text-secondary">
+        <i class="fas fa-tshirt"></i> prod List </a></li>
+</ul>

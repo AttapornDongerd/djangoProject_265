@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="row">
+     <div class="text-center">
+        <img src="{% static 'images/edu5.png' %}"  width="200px" height="200px"
+        class="img-thumbnail">
+    </div>
+    </div>
+    <body bgcolor="#bdb76b" text="blue">
+    <h1 class="text-info text-center">ประวัติการศึกษา</h1>
+    <table class="table table-primary table-striped table-hover">
+        <tr>
+            <th>ระดับ</th>
+            <th>สถานศึกษา</th>
+        </tr>
+        <tr>
+            <td>ประถมศึกษา</td>
+            <td>โรงเรียนบ้านหนองแวง</td>
+        </tr>
+        <tr>
+            <td>มัธยมศึกษาตอนต้น</td>
+            <td>โรงเรียนจันทรุเบกษาอนุสรณ์</td>
+        </tr>
+        <tr>
+            <td>มัธยมศึกษาตอนปลาย</td>
+            <td>โรงเรียนจันทรุเบกษาอนุสรณ์</td>
+        </tr>
+        <tr>
+            <td>ประกาศนียบัตรวิชาชีพชั้นสูง</td>
+            <td>วิทยาลัยอาชีวศึกษาร้อยเอ็ด</td>
+        </tr>
+        <tr>
+            <td>ปัจจุบัน ปริญญาตรี</td>
+            <td>มหาวิทยาลัยเทคโนโลยีราชมงอีสาน วิทยาเขตขอนแก่น</td>
+        </tr>
+    </table>
+    <br>
+{% endblock %}

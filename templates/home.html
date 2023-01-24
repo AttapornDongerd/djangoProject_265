@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <br>
+    <div class="row">
+        <img src="{% static 'images/homepage.png'%}">
+    </div>
+    <div class="text-center">
+        <div class="spinner-border text-muted"></div>
+        <div class="spinner-border text-primary"></div>
+        <div class="spinner-border text-success"></div>
+        <div class="spinner-border text-info"></div>
+        <div class="spinner-border text-warning"></div>
+        <div class="spinner-border text-danger"></div>
+        <div class="spinner-border text-secondary"></div>
+        <div class="spinner-border text-dark"></div>
+        <div class="spinner-border text-light"></div>
+    </div>
+    <div class="row">
+     <div class="col-lg-4">
+        <img src="{% static 'images/PERSONAL.png' %}"  width="180px" height="180px"
+        class="img-thumbnail">
+    </div>
+     <div class="col-lg-4">
+        <img src="{% static 'images/education.png' %}"  width="180px" height="180px"
+        class="img-thumbnail">
+    </div>
+     <div class="col-lg-4">
+        <img src="{% static 'images/interests.png' %}"  width="180px" height="180px"
+        class="img-thumbnail">
+    </div>
+    </div>
+    <div class="row">
+     <div class="col-lg-8">
+        <img src="{% static 'images/product.png' %}"  width="180px" height="180px"
+        class="img-thumbnail">
+    </div>
+     <div class="col-lg-4">
+        <img src="{% static 'images/rolemodel.png' %}"  width="180px" height="180px"
+        class="img-thumbnail">
+    </div>
+    </div>
+    <br>
+
+
+{% endblock %}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet"
+    href="../static/stylesheets/bt523/css/bootstrap.css">
+    <script src="../static/stylesheets/bt523/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row bg-danger">
+        <div class="col-lg-12">
+            {% include 'header.html' %}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 bg-danger">
+            {% include 'menu.html' %}
+        </div>
+        <div class="col-lg-9 bg-white">
+            {% block content %}
+
+            {% endblock %}
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
